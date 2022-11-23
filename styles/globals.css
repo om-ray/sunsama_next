@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Avenir" !important;
+}
+
+.dark .MuiPickersDay-root,
+.dark .MuiSvgIcon-root {
+  color: white;
+}
+
+.dark .MuiDayPicker-weekDayLabel {
+  color: #575757;
+}
+
+.dark .MuiDayPicker-weekDayLabel,
+.MuiDayPicker-weekDayLabel {
+  font-family: "Avenir" !important;
+  font-weight: 100;
+}
+
+.dark .css-9reuh9-MuiPickersArrowSwitcher-root > button {
+  background-color: rgba(255, 255, 255, 0.178);
+  width: 3rem;
+  height: 3rem;
+  color: black;
+}
+
+.MuiRadio-root {
+  width: fit-content;
+  padding: 0px 10px 0px 0px;
+}
+
+.dark .MuiRadio-root {
+  color: #1764c0;
+  width: fit-content;
+  padding: 0px 10px 0px 0px;
+}
+
+.dark .MuiPickersDay-today {
+  border-color: white;
+}
+
+.dark .MuiListItemText-primary {
+  color: white;
+}
+
+.dark .MuiListItemText-secondary {
+  color: white;
+}
+
+.MuiCalendarPicker-root {
+  max-height: 280px;
+}
+
+.css-9reuh9-MuiPickersArrowSwitcher-root > button {
+  background-color: rgba(255, 255, 255, 0.322);
+  width: 3.5vw;
+  height: 3.5vw;
+  color: black;
+}
+
+.css-9reuh9-MuiPickersArrowSwitcher-root,
+.css-9reuh9-MuiPickersArrowSwitcher-root > .MuiPickersArrowSwitcher-spacer {
+  width: 100%;
+}
+
+.MuiPickersCalendarHeader-labelContainer {
+  font-family: "Avenir";
+  font-weight: 200;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-40%);
+}
