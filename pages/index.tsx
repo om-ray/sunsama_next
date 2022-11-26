@@ -4,7 +4,6 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import React from "react";
 import Theme_toggle_button from "../components/Theme_toggle_button";
-import moment from "moment";
 
 const Home: NextPage = () => {
   const [theme, setTheme] = useState(
@@ -39,7 +38,7 @@ const Home: NextPage = () => {
           LUMINITY
         </h1>
         <Button
-          href={`/Main_app#${moment().format("MMMM D YYYY")}`}
+          href={"/Main_app#today"}
           variant="outlined"
           color="inherit"
           className="rounded-none px-6 py-3 text-white border-white border mt-6 dark:bg-white dark:text-zinc-900 hover:bg-white dark:hover:bg-zinc-900 hover:border-black dark:hover:border-white hover:text-black dark:hover:text-white bg-zinc-900"

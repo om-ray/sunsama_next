@@ -65,6 +65,14 @@ function Task_view(props: any) {
   );
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      document
+        ?.getElementById(`${props?.today?.absolute_date}`)
+        ?.scrollIntoView({ behavior: "smooth", inline: "start" });
+    }
+  }, []);
+
+  useEffect(() => {
     setContainers(
       daysArray.map((day: any) => {
         return day.absolute_date;

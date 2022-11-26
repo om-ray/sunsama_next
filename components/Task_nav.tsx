@@ -1,7 +1,7 @@
 import { ChevronLeft, ExpandMore } from "@mui/icons-material";
 import { Box, IconButton } from "@mui/material";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { TodayType } from "../pages/Main_app";
 
 type PropsType = {
@@ -16,6 +16,10 @@ export default function Task_Nav(props: PropsType) {
         ?.scrollIntoView({ behavior: "smooth", inline: "start" });
     }
   };
+
+  useEffect(() => {
+    scrollToToday();
+  }, []);
 
   return (
     <Box
