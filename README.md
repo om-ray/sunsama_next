@@ -1,27 +1,31 @@
-# Next.js + Tailwind CSS Example
+# Luminity
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a simple version of Sunsama that I made in NextJS.
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Demo Video
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+[Demo Video](https://www.loom.com/share/01986861d6dc4c44ba3484a01cf9cffd)
 
-## How to use
+---
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## How to run it on localhost
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+Clone the Repo:
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/om-ray/sunsama_next.git
 ```
+
+Install dependencies:
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Run locally:
+
+```bash
+npm run dev
+```
