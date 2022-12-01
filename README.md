@@ -6,7 +6,8 @@ This is a simple version of Sunsama that I made in NextJS.
 
 ## Demo Video
 
-[Demo Video](https://www.loom.com/share/01986861d6dc4c44ba3484a01cf9cffd)
+https://user-images.githubusercontent.com/38233712/204946671-8e77ff6a-0c82-44ae-bcfb-28b796ab4597.mp4
+
 
 ---
 
